@@ -37,7 +37,7 @@ consumption_sample$Global_reactive_power<-as.numeric(as.character(consumption_sa
 
 # PLOT
 
-plot(Global_active_power ~ DateTime, consumption_sample, type="l",ylab="Global Active Power (kilowatts)")
+plot(Global_active_power ~ DateTime, consumption_sample, type="l",xlab="", ylab="Global Active Power (kilowatts)")
 
 # copy plot to PNG
 
